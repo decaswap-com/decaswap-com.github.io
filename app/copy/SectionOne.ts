@@ -1,17 +1,14 @@
 export const sectionOneCopy = {
     title: "decentralised",
     title_colored: "SWAPs",
-    description_1: "A single gateway to decentralised cross-chain swaps.",
-    description_2: "Bitcoin, Ethereum, L2s, Solana, TON, IBC and more.",
+    description: "A single gateway to decentralised cross-chain swaps. <br/>Bitcoin, Ethereum, L2s, Solana, TON, IBC and more.",
     form: {
         place_holder: "Enter your email",
         button: "Waitlist"
     },
     gateway: {
-        title_1: "a single",
-        title_2: "gateway",
-        description_1: "DECASWAP is your portal to decentralised cross-chain swaps.",
-        description_2: "With support for 40+ chains and 5000+ tokens, you can call DECASWAP home.",
+        title: "a single <br/> gateway",
+        description: "DECASWAP is your portal to decentralised cross-chain swaps. <br/> With support for 40+ chains and 5000+ tokens, you can call DECASWAP home.",
         button: {
             name: "Join Waitlist",
             href: "#",
@@ -19,8 +16,7 @@ export const sectionOneCopy = {
         }
     },
     exchange: {
-        title_1: "the exchange of the",
-        title_2: "future",
+        title: "the exchange of the <br/> future",
         description: "Integrating robust security with versatile functionality across multiple platforms, DECASWAP streamlines swaps, savers and more, enhancing accessibility for everyone.",
         items: [
             {
@@ -47,24 +43,20 @@ export const sectionOneCopy = {
     },
     future: {
         top_title: "future of dex",
-        title_1: "powering digital self-",
-        title_2: "custody",
+        title: "powering digital self-<br/>custody",
         cards: [
             {
-                title_1: "multi-factor",
-                title_2: "security wallet",
+                title: "multi-factor <br/>security wallet",
                 description: "Our state-of-the-art multi-factor wallet offers unparalleled security, ensuring your digital assets are safe from unauthorized access.",
                 image: "/img/img-safe-wallet.svg"
             },
             {
-                title_1: "cross-chain",
-                title_2: "aggregation",
+                title: "cross-chain <br/> aggregation",
                 description: "DECASWAP's innovative cross-chain aggregation allows for seamless transactions across multiple blockchain ecosystems.",
                 image: "/img/img-cross-chain.svg"
             },
             {
-                title_1: "unified user",
-                title_2: "interface",
+                title: "unified user <br/>interface",
                 description: "A streamlined digital exchange with a unified user interface that combines all trading functionalities into a single, easy-to-navigate platform.",
                 image: "/img/img-user-interface.svg"
             }
@@ -73,48 +65,39 @@ export const sectionOneCopy = {
     },
     how: {
         top_title: "how it works",
-        title_1: "single brand,",
-        title_2: "multiple benefits",
+        title: "single brand,<br/> multiple benefits",
         description: "DECASWAP's transformative approach consolidates numerous services under a single brand, creating a seamless experience across all aspects of digital asset management.Here's how our unified platform optimizes your trading process: ",
         items: [
             {
-                name_1: "Browser",
-                name_2: "extension",
+                name: "Browser <br/>extension",
                 image: "/img/icon-extension.svg"
             },
             {
-                name_1: "web-apps",
-                name_2: "pro-simple",
+                name: "web-apps <br/> pro-simple",
                 image: "/img/icon-webapp.svg"
             },
             {
-                name_1: "desktop",
-                name_2: "apps",
+                name: "desktop <br/> apps",
                 image: "/img/icon-desktopapp.svg"
             },
             {
-                name_1: "mobile",
-                name_2: "apps",
+                name: "mobile <br/>apps",
                 image: "/img/icon-mobileapp.svg"
             },
             {
-                name_1: "Chat",
-                name_2: "bots",
+                name: "Chat <br/> bots",
                 image: "/img/icon-chatbot.svg"
             },
             {
-                name_1: "fiat",
-                name_2: "ramps",
+                name: "fiat <br/> ramps",
                 image: "/img/icon-fiat.svg"
             },
             {
-                name_1: "education",
-                name_2: "",
+                name: "education",
                 image: "/img/icon-education.svg"
             },
             {
-                name_1: "customer",
-                name_2: "service",
+                name: "customer <br/> service",
                 image: "/img/icon-customer-service.svg"
             }
         ]

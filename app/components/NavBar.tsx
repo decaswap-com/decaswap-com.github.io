@@ -5,6 +5,7 @@ import { Offcanvas } from "./OffCanvas/OffCanvas";
 import { navbarCopy } from "../copy/NavBar";
 import { OffcanvasProvider } from "./OffCanvas/Context";
 import { Trigger } from "./OffCanvas/Trigger";
+import Image from 'next/image';
 
 
 export default function Header() {
@@ -41,9 +42,9 @@ export default function Header() {
 
             <div id="nav-mobile" className="overflow-hidden">
 
-                <div className="w-100 d-flex py-4 justify-content-between align-items-center" id="menu">
+                <div className="w-100 d-flex py-4 justify-content-between align-items-center " id="menu">
                     <a className="navbar-brand d-flex align-items-center col-6 col-lg-4" href="./index.html">
-                        <img src="./img/navbar-logo.svg" className="d-inline-block align-top" id="header-logo" alt="DECASWAP Logo" />
+                        <Image width={200} height={150} src="./img/navbar-logo.svg" className="d-inline-block align-top" id="header-logo" alt="DECASWAP Logo" />
                     </a>
                     <OffcanvasProvider onOpen={handleOpen} onClose={handleClose}>
                         <Trigger />

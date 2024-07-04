@@ -75,7 +75,7 @@ export function Offcanvas({
                 aria-hidden="true"
             >
                 <div className={scss.header}>
-                    <h5 className={scss.title}>{title}</h5>
+                    <h5 className={scss.title} style={{ paddingLeft: "15px" }}>{title}</h5>
                     <button
                         className={scss.close}
                         onClick={handleClose}

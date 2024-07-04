@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { footerCopy } from "../copy/Footer";
+import Image from "next/image";
 export default function Footer() {
     useEffect(() => {
         const loadScript = (src: string) => {
@@ -109,7 +110,7 @@ export default function Footer() {
             <div className="row my-5">
                 <div className="col-lg-6 d-flex flex-column justify-content-between">
                     <a href="#" className="mb-5">
-                        <img src="./img/navbar-logo.svg" style={{ ["width" as any]: "200px" }}
+                        <Image width={200} height={150} src="./img/navbar-logo.svg"
                             alt="Footer Logo" />
                     </a>
 
@@ -118,7 +119,7 @@ export default function Footer() {
                             {footerCopy.socials.map((link, index) => (
                                 <li key={index} className="mx-2">
                                     <a href={link.href} target={link.target}
-                                    ><img src={link.image} alt={link.title} /></a>
+                                    ><Image width={30} height={30} src={link.image} alt={link.title} /></a>
                                 </li>
                             ))}
                         </ul>

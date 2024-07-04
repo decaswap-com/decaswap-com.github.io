@@ -21,8 +21,6 @@ function reducer(state: State, action: Action): State {
             return state
     }
 }
-// Generate a simple unique string
-const randomId =  (window as any).crypto.getRandomValues(new Uint32Array(1))[0].toString(36)
 
 interface ContextProps {
     isOpen?: boolean
@@ -55,7 +53,7 @@ export function OffcanvasProvider({
     }
 
     return (
-        <AppContext.Provider value={{ isOpen, handleOpen, handleClose, randomId }}>
+        <AppContext.Provider value={{ isOpen, handleOpen, handleClose, randomId: "new" }}>
             <div className="simple-offcanvas-component">{children}</div>
         </AppContext.Provider>
     )
