@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: 'DECASWAP',
     url: 'https://decaswap.com',
-    images: '/img/decaswap-thumbnail.png',
+    images: 'https://decaswap-labs-github-io.vercel.app/img/decaswap-thumbnail.png',
   },
   icons: {
     icon: "/img/favicon.svg"
